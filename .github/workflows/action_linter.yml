@@ -10,7 +10,7 @@ on:
     inputs:
       GITHUB_TOKEN:
         description: 'The GITHUB_TOKEN secret'
-        default: "${{ github.token }}"
+        default: "${{ secrets.GITHUB_TOKEN }}"
         required: true
 
 permissions:
